@@ -1,4 +1,4 @@
-v/* Body Styles */
+/* Body Styles */
 body {
     background-image: url("https://img.freepik.com/premium-photo/blue-purple-gradient-neon-light-question-mark-with-concrete-wall-3d-rendering_626958-64.jpg?size=626&ext=jpg");
     background-size: cover; /* Cover the entire viewport */
@@ -16,7 +16,7 @@ body {
 /* Login Container Styles */
 .login-container {
     background-image: url("https://e0.pxfuel.com/wallpapers/386/919/desktop-wallpaper-website-background-website-login-page-background.jpg");
-    background-color: #3498db; /* University's primary color */
+    /*background-color: #3498db; /* University's primary color */
     padding: 20px;
     color: #fff;
     text-align: center;
@@ -72,11 +72,11 @@ body {
 /* Quiz Container Styles */
 .quiz-container {
     background-color: #ffffff; /* White background for the quiz container */
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(134, 206, 89, 0.1);
     text-align: left;
 }
 
