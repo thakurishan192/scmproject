@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button id="login-button">Login</button>
+    </div>
+
+    <div class="quiz-container" style="display: none;">
+        <h1>Questions</h1>
+        <p id="question">Question goes here...</p>
+        <ul id="choices">
+            <li><input type="radio" name="choice" value="A"> Choice A</li>
+            <li><input type="radio" name="choice" value="B"> Choice B</li>
+            <li><input type="radio" name="choice" value="C"> Choice C</li>
+        </ul>
+        <button id="submit-button">Submit</button>
+        <p id="result"></p>
+        <div id="timer">Time remaining: <span id="time-left">60</span> seconds</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

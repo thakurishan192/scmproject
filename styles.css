@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8e6767;
+    place-items: center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    
+}
+.login-container {
+    background-color: #7b4d64;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+}
+.login-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-button {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+#login-button:hover {
+    background-color: #bf8da3;
+}
+.quiz-container {
+    background-color: #f5bfbf;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    place-items: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+input[type="radio"] {
+    margin-right: 0px;
+}
+
+#submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+}
